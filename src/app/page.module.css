@@ -19,3 +19,9 @@
 .articleCardText h2{
     margin-bottom: 20px;
 }
+
+.articlePageHeaderWrapper{
+    background-color: gray;
+    background-size: cover;
+    min-height: 34px;
+}
