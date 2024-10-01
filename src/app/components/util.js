@@ -1,5 +1,4 @@
-
-MONTHS = ['Jan','Feb','Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct','Nov','Dec'];
+const MONTHS = ['Jan','Feb','Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct','Nov','Dec'];
 
 export function formatDateForArticle(incomingDate){
     const freshDate = new Date(incomingDate);

@@ -10,6 +10,7 @@ export default function Home() {
         <ArticleCard
           key={i}
           blurb={article.blurb}
+          id={article.id}
           image={article.image}
           publishedDate={article.publishedDate}
           title={article.title}/>
